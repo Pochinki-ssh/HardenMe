@@ -29,7 +29,7 @@ follow the below steps:
 1. Run PowerShell as an Administrator.
 
 2. Type “cd C:/<path of the file>”.
-(Typically “C:\Users\<Your User>\Downloads”)
+(Typically “C:\Users\ <Your User>\Downloads”)
 
 3. Lastly, type: “.\Protectorate-w10-Lv1.ps1”
 or “.\Protectorate-w10-Lv2.ps1”
