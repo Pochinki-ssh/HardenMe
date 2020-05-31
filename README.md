@@ -14,7 +14,7 @@ Only disables telemetry.
 
 ### Level 2
 Removes unwanted software (OneDrive, Cortana) potentially disrupting
-your user experience but furthers strengthens your security. If you don’t need
+your user experience but further strengthens your security. If you don’t need
 it, remove it!
 
 
