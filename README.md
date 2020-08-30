@@ -26,7 +26,7 @@ it, remove it!
 In order to run the above PowerShell scripts (.ps1) simply
 follow the below steps:
 
-1. Run PowerShell as an Administrator.(Yes, it requires Adminitrator rights to make registry changes)
+1. Run PowerShell as an Administrator. (Yes, it requires Adminitrator rights to make registry changes)
 
 2. Type “cd C:/<path of the file>”.
 (Typically “C:\Users\ {Your User}\Downloads”)
