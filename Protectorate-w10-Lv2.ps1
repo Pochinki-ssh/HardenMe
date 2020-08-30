@@ -268,4 +268,10 @@ Write-Host -ForegroundColor DarkGreen "=========================================
 Write-Host -ForegroundColor DarkGreen "====================================================="
 Write-Host -ForegroundColor DarkGreen "Disable Compatibility Telemetry ((Level 2))"
 Write-Host -ForegroundColor DarkGreen "====================================================="
- 	Reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\CompatTelRunner.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
+ 	Reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\CompatTelRunner.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f 	Reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\CompatTelRunner.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
+
+Write-Host -ForegroundColor DarkGreen "============================================================"
+Write-Host -ForegroundColor DarkGreen "Disable Windows Script Host - Blocks scripts VBS ((Level 2))"
+Write-Host -ForegroundColor DarkGreen "============================================================"
+ 	Reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows Script Host\Settings" /v Enabled /t REG_DWORD /d 0 /f
+   	Reg add "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Script Host\Settings" /v Enabled /t REG_DWORD /d 0 /f
